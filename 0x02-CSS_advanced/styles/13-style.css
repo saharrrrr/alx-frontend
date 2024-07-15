@@ -28,7 +28,7 @@
     --section-tagline-transform: uppercase;
 
     --section-title-margin: 0;
-    --scetion-title-color: var(var(--color-black));
+    --scetion-title-color: var(--color-black);
 }
 
 /* Smoth transition while scrolling */

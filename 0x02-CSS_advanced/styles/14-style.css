@@ -28,7 +28,7 @@
     --section-tagline-transform: uppercase;
 
     --section-title-margin: 0;
-    --scetion-title-color: var(--color-black);
+    --scetion-title-color: var(var(--color-black));
 }
 
 /* Smoth transition while scrolling */
@@ -53,6 +53,18 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: var(--text-color);
     text-decoration: none;
+}
+
+a:visited {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
